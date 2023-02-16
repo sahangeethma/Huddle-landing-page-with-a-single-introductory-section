@@ -12,7 +12,7 @@ body{
     background-color: var(--clr-Primary);
     color: var(--clr-White);
     font-family: 'Poppins';
-    margin: 2rem 2rem 0;
+    padding: 2rem 2rem 0;
     text-align: center;
 
     background-image: url(../images/bg-mobile.svg);
@@ -68,7 +68,7 @@ p{
 
 @media(min-width: 35rem){
     body{
-        margin: 3rem;
+        padding: 3rem;
         /* visibility: hidden; */
 
         background-image: url(../images/bg-desktop.svg);
